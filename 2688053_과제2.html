@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <div style="display: flex; justify-content: center; align-items: center; height: 550px; border: 2px">
+        <p></p>
+
+        <form action="#">
+
+  <fieldset style="border: 2px solid #aaa; padding: 15px; margin-bottom: 15px;">
+아이디 <input type="text" size="40" style="height: 35; font-size:18px;" placeholder=아이디 ><br>
+비밀번호 <input type="password"size="40" style="height: 35; font-size:18px;" placeholder=비밀번호><br>
+이메일 <input type="text" size="40" style="height: 35; font-size:18px;" placeholder=[선택]이메일주소><br></fieldset>
+<fieldset style="border: 2px solid #aaa; padding: 15px; margin-bottom: 15px;">
+이름 <input type="text" size="40" style="height: 35; font-size:18px;" placeholder=이름 ><br>
+생년월일 <input type="text" size="4" style="height: 35px; font-size:18px;" placeholder="YYYY"> .
+<input type="text" size="2" style="height: 35px; font-size:18px;" placeholder="MM"> .
+<input type="text" size="2" style="height: 35px; font-size:18px;" placeholder="DD"><br>
+통신사 <input type="text" size="40" style="height: 35; font-size:18px;" list="carrier">
+<datalist id="carrier">
+    <option value="SKT">
+    <option value="KT">
+    <option value="LG U+">
+    <option value="SKT 알뜰폰">
+    <option value="KT 알뜰폰">
+    <option value="LG U+ 알뜰폰">
+</datalist><br>
+성별 :
+<label><input type="radio" name="gender"> 남자</label>
+<label><input type="radio" name="gender"> 여자</label>
+|
+국적 :
+<label><input type="radio" name="nation"> 내국인</label>
+<label><input type="radio" name="nation"> 외국인</label><br>
+</fieldset>
+<fieldset style="border: 2px solid #aaa; padding: 15px; margin-bottom: 15px;">
+전화번호 <input type="text" size="40" style="height: 35; font-size:18px;" placeholder=전화번호 >
+<button type="button">인증요청
+</button><br>
+</fieldset>
+<div> 
+    <button type="button" style="width:300px; height:50px; font-size:18px; border-radius:5px;">
+        회원가입
+    </button>
+
+</div>
+        
+    </body>
+</html>
